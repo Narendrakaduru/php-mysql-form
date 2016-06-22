@@ -79,7 +79,7 @@
             <div id="mail">
               <form id="myForm" onsubmit="return validateForm()" method="post" action="check.php">
                  <h4>Signup</h4>
-                  <p><div class="form-group has-warning has-feedback">
+                  <p><div class="form-group has-success has-feedback">
                   <label for="validate-optional">UserName</label>
                   <div class="input-group">
                   <input type="text" class="form-control" name="username" placeholder="UserName" required>
@@ -88,7 +88,7 @@
                   </div>
                   </p>
 
-                  <p><div class="form-group has-warning has-feedback">
+                  <p><div class="form-group has-success has-feedback">
                   <label for="validate-optional">Password</label>
                   <div class="input-group">
                   <input type="password" class="form-control" name="password" placeholder="Password" required>
@@ -97,8 +97,8 @@
                   </div>
                   </p>
 
-            <p align="right"><input type="submit" class="btn btn-warning" onclick="myFunction()" value="reset">
-            <input type="submit" class="btn btn-warning" onclick="validateForm()" value="Signup"></p>
+            <p align="right"><input type="submit" class="btn btn-success" onclick="myFunction()" value="reset">
+            <input type="submit" class="btn btn-success" onclick="validateForm()" value="Signin"></p>
             </form>
 
             <script>
