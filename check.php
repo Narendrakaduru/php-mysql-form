@@ -19,9 +19,9 @@ $username = $_POST['username'];
 
 
 if ($num_row>0) {
-    echo "Loggedin successfully";
+    echo "LoggedIn successfully";
 } else {
-    echo "Error: " . $query . "<br>" ;
+    echo "Please check your Username and Password" ;
 }
 
 ?>

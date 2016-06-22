@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2016 at 06:57 AM
+-- Generation Time: Jun 22, 2016 at 07:36 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -35,14 +35,14 @@ CREATE TABLE IF NOT EXISTS `sign` (
   `confirm` varchar(10) NOT NULL,
   `Email` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `sign`
 --
 
 INSERT INTO `sign` (`id`, `Uname`, `Password`, `confirm`, `Email`) VALUES
-(1, 'Narendra', 'nani86', 'nani86', 'kadurunarendra@gmail.com');
+(2, 'jhon', 'qwe123', 'qwe123', 'jhon@gmail.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
